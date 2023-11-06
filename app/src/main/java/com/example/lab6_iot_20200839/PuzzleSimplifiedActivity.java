@@ -96,7 +96,7 @@ public class PuzzleSimplifiedActivity extends AppCompatActivity {
         int index;
         Bitmap temp;
         Random random = new Random();
-        for (int i=list.length - 1; i < 0; i--){
+        for (int i=imageParts.length - 1; i > 0; i--){
             index = random.nextInt(i+1);
             temp = imageParts[index];
             imageParts[index] = imageParts[i];
