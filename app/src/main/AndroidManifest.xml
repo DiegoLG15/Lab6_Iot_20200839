@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Lab6_Iot_20200839"
         tools:targetApi="31">
         <activity
+            android:name=".MemoryClassicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PuzzleSimplifiedActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
